@@ -8,8 +8,9 @@
                 <nav
                     class="navbar navbar-expand-lg blur border-radius-lg top-0 z-index-3 shadow position-absolute mt-4 py-2 start-0 end-0 mx-4">
                     <div class="container-fluid">
+                        <img style="height: 40px;width:40px;margin-right:5px" src="./img/logomerauke.png" alt="main_logo">
                         <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 " href="{{ route('home') }}">
-                            Argon Dashboard 2 Laravel
+                            Paket Trip Wisata Merauke
                         </a>
                         <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false"
@@ -107,10 +108,8 @@
                                 style="background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-pro/assets/img/signin-ill.jpg');
               background-size: cover;">
                                 <span class="mask bg-gradient-primary opacity-6"></span>
-                                <h4 class="mt-5 text-white font-weight-bolder position-relative">"Attention is the new
-                                    currency"</h4>
-                                <p class="text-white position-relative">The more effortless the writing looks, the more
-                                    effort the writer actually put into the process.</p>
+                                <h4 class="mt-5 text-white font-weight-bolder position-relative">"Kota Rusa"</h4>
+                                <p class="text-white position-relative">Keindahan alam Papua Selatan, Pantai, dan Taman Nasional. Jelajahi pesona timur Indonesia sekarang! </p>
                             </div>
                         </div>
                     </div>

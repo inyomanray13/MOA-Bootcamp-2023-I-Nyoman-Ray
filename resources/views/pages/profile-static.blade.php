@@ -7,16 +7,16 @@
             <div class="row gx-4">
                 <div class="col-auto">
                     <div class="avatar avatar-xl position-relative">
-                        <img src="/img/team-1.jpg" alt="profile_image" class="w-100 border-radius-lg shadow-sm">
+                        <img src="/img/team-5.jpg" alt="profile_image" class="w-100 border-radius-lg shadow-sm">
                     </div>
                 </div>
                 <div class="col-auto my-auto">
                     <div class="h-100">
                         <h5 class="mb-1">
-                            Sayo Kravits
+                            I Nyoman Rai
                         </h5>
                         <p class="mb-0 font-weight-bold text-sm">
-                            Public Relations
+                            Fullstack Web Development
                         </p>
                     </div>
                 </div>
@@ -66,25 +66,25 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="example-text-input" class="form-control-label">Username</label>
-                                    <input class="form-control" type="text" value="lucky.jesse">
+                                    <input class="form-control" type="text" value="inyomanray">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="example-text-input" class="form-control-label">Email address</label>
-                                    <input class="form-control" type="email" value="jesse@example.com">
+                                    <input class="form-control" type="email" value="inyoman@gmail.com">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="example-text-input" class="form-control-label">First name</label>
-                                    <input class="form-control" type="text" value="Jesse">
+                                    <input class="form-control" type="text" value="inyoman">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="example-text-input" class="form-control-label">Last name</label>
-                                    <input class="form-control" type="text" value="Lucky">
+                                    <input class="form-control" type="text" value="ray">
                                 </div>
                             </div>
                         </div>
@@ -95,25 +95,25 @@
                                 <div class="form-group">
                                     <label for="example-text-input" class="form-control-label">Address</label>
                                     <input class="form-control" type="text"
-                                        value="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09">
+                                        value="noari">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label for="example-text-input" class="form-control-label">City</label>
-                                    <input class="form-control" type="text" value="New York">
+                                    <input class="form-control" type="text" value="merauke">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label for="example-text-input" class="form-control-label">Country</label>
-                                    <input class="form-control" type="text" value="United States">
+                                    <input class="form-control" type="text" value="indonesia">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label for="example-text-input" class="form-control-label">Postal code</label>
-                                    <input class="form-control" type="text" value="437300">
+                                    <input class="form-control" type="text" value="34563">
                                 </div>
                             </div>
                         </div>
@@ -124,7 +124,7 @@
                                 <div class="form-group">
                                     <label for="example-text-input" class="form-control-label">About me</label>
                                     <input class="form-control" type="text"
-                                        value="A beautiful Dashboard for Bootstrap 5. It is Free and Open Source.">
+                                        value="Saya menyukai dunia IT">
                                 </div>
                             </div>
                         </div>
@@ -133,12 +133,12 @@
             </div>
             <div class="col-md-4">
                 <div class="card card-profile">
-                    <img src="/img/bg-profile.jpg" alt="Image placeholder" class="card-img-top">
+                    <img src="/img/team-6.jpg" alt="Image placeholder" class="card-img-top">
                     <div class="row justify-content-center">
                         <div class="col-4 col-lg-4 order-lg-2">
                             <div class="mt-n4 mt-lg-n6 mb-4 mb-lg-0">
                                 <a href="javascript:;">
-                                    <img src="/img/team-2.jpg"
+                                    <img src="/img/team-5.jpg"
                                         class="rounded-circle img-fluid border border-2 border-white">
                                 </a>
                             </div>
@@ -160,15 +160,15 @@
                             <div class="col">
                                 <div class="d-flex justify-content-center">
                                     <div class="d-grid text-center">
-                                        <span class="text-lg font-weight-bolder">22</span>
+                                        <span class="text-lg font-weight-bolder">7</span>
                                         <span class="text-sm opacity-8">Friends</span>
                                     </div>
                                     <div class="d-grid text-center mx-4">
-                                        <span class="text-lg font-weight-bolder">10</span>
+                                        <span class="text-lg font-weight-bolder">2</span>
                                         <span class="text-sm opacity-8">Photos</span>
                                     </div>
                                     <div class="d-grid text-center">
-                                        <span class="text-lg font-weight-bolder">89</span>
+                                        <span class="text-lg font-weight-bolder">13</span>
                                         <span class="text-sm opacity-8">Comments</span>
                                     </div>
                                 </div>
@@ -176,16 +176,16 @@
                         </div>
                         <div class="text-center mt-4">
                             <h5>
-                                Mark Davis<span class="font-weight-light">, 35</span>
+                                I Nyoman Ray<span class="font-weight-light">, 20</span>
                             </h5>
                             <div class="h6 font-weight-300">
-                                <i class="ni location_pin mr-2"></i>Bucharest, Romania
+                                <i class="ni location_pin mr-2"></i>Yogyakarta, Indonesia
                             </div>
                             <div class="h6 mt-4">
-                                <i class="ni business_briefcase-24 mr-2"></i>Solution Manager - Creative Tim Officer
+                                <i class="ni business_briefcase-24 mr-2"></i>Fullstack - Web Developer
                             </div>
                             <div>
-                                <i class="ni education_hat mr-2"></i>University of Computer Science
+                                <i class="ni education_hat mr-2"></i>Musamus University
                             </div>
                         </div>
                     </div>

@@ -25,8 +25,6 @@ class DatabaseSeeder extends Seeder
 
         $this->call([
             EditSeeder::class,
-            TambahSeeder::class,
-            HapusSeeder::class,
         ]);
     }
 }

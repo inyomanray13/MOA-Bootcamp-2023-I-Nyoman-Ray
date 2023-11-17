@@ -12,30 +12,39 @@
                         <form action="/insertdata" method="POST" enctype="multipart/form-data">
                           @csrf
                             <div class="mb-3">
-                              <label for="exampleInputEmail1" class="form-label">Nama Lengkap</label>
-                              <input type="text" name="nama" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <label for="name" class="form-label">Nama Lengkap</label>
+                              <input type="text" name="name" class="form-control" id="name" placeholder="masukan nama anda!">
                             </div>
                             <div class="mb-3">
-                              <label for="exampleInputEmail1" class="form-label">Tanggal Lahir</label>
-                              <input type="text" name="tanggallahir" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <label for="phone" class="form-label">No Handphone</label>
+                              <input type="text" name="phone" class="form-control" id="phone" placeholder="masukan No Handphone anda">
                             </div>
                             <div class="mb-3">
-                              <label for="exampleInputEmail1" class="form-label">Skill</label>
-                              <select class="form-select" name="skill" aria-label="Default select example">
+                              <label for="qty" class="form-label">Quantity</label>
+                              <select class="form-select" name="qty" placeholder="masukan quantity anda">
                                 <option selected>Silahkan memilih opsi berikut</option>
-                                <option value="Programmer">Programmer</option>
-                                <option value="Ahli Gizi">Ahli Gizi</option>
-                                <option value="Software Developer">Software Developer</option>
-                                <option value="Teknisi">Teknisi</option>
-                                <option value="Human Management">Human Management</option>
-                                <option value="Application Development">Application Development</option>
-                                <option value="DLL">Dan Lain-Lain</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
                               </select>
                             </div>
                             <div class="mb-3">
-                              <label for="exampleInputEmail1" class="form-label">Experience</label>
-                              <input type="text" name="experience" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <label for="status" class="form-label">Status Pembayaran</label>
+                              <select class="form-select" name="status" placeholder="masukan status anda">
+                                <option selected>Silahkan memilih opsi berikut</option>
+                                <option value="unpaid">unpaid</option>
+                                <option value="paid">paid</option>
+                                
+                              </select>
                             </div>
+                           
                             <button type="submit" class="btn btn-primary">Submit</button>
                           </form>
                 </div>

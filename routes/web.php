@@ -25,16 +25,7 @@ use App\Http\Controllers\UserProfileController;
 use App\Http\Controllers\ResetPassword;
 use App\Http\Controllers\ChangePassword;
 use App\Http\Controllers\EditController;
-
-Route::get('/job', [EditController::class, 'index'])->name('job');
-Route::get('/tambahjob', [EditController::class, 'tambahjob'])->name('tambahjob');
-Route::post('/insertdata', [EditController::class, 'insertdata'])->name('insertdata');
-
-Route::get('/tampilkandata/{id}', [EditController::class, 'tampilkandata'])->name('tampilkandata');
-Route::post('/updatedata/{id}', [EditController::class, 'updatedata'])->name('updatedata');
-
-
-Route::get('/delete/{id}', [EditController::class, 'delete'])->name('delete');
+use App\Http\Controllers\OrderController;
 
 Route::get('/', function () {return redirect('/dashboard');})->middleware('auth');
 	Route::get('/register', [RegisterController::class, 'create'])->middleware('guest')->name('register');
@@ -46,6 +37,22 @@ Route::get('/', function () {return redirect('/dashboard');})->middleware('auth'
 	Route::get('/change-password', [ChangePassword::class, 'show'])->middleware('guest')->name('change-password');
 	Route::post('/change-password', [ChangePassword::class, 'update'])->middleware('guest')->name('change.perform');
 	Route::get('/dashboard', [HomeController::class, 'index'])->name('home')->middleware('auth');
+
+	//* route final projek *//
+	Route::get('/order', [OrderController::class, 'index'])->name('order')->middleware('auth');
+	Route::post('/checkout', [OrderController::class, 'checkout'])->name('checkout')->middleware('auth');
+
+	Route::get('/job', [OrderController::class, 'job'])->name('job')->middleware('auth');
+	Route::get('/tambahjob', [OrderController::class, 'tambahjob'])->name('tambahjob')->middleware('auth');
+	Route::post('/insertdata', [OrderController::class, 'insertdata'])->name('insertdata')->middleware('auth');
+
+	Route::get('/tampilkandata', [OrderController::class, 'tampilkandata'])->name('tampilkandata')->middleware('auth');
+	Route::post('/updatedata', [OrderController::class, 'updatedata'])->name('updatedata')->middleware('auth');
+
+
+	Route::get('/delete/{id}', [OrderController::class, 'delete'])->name('delete')->middleware('auth');
+	//* end route final projek *//
+
 Route::group(['middleware' => 'auth'], function () {
 	Route::get('/virtual-reality', [PageController::class, 'vr'])->name('virtual-reality');
 	Route::get('/rtl', [PageController::class, 'rtl'])->name('rtl');
